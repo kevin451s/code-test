@@ -1,0 +1,127 @@
+@media all and (min-width: 900px) {
+  .navbar {
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: -335px;
+    margin-left: 330px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+  }
+  .navbar:hover {
+    background-color: black;
+    color: white;
+  }
+  .fit {
+    width: 900px;
+    height: 250px;
+    /*border: 1px solid black;*/
+    margin-left: 260px;
+    text-align: center;
+    font-family: sans-serif;
+    display: none;
+  }
+  .care {
+    width: 900px;
+    height: 250px;
+    /*border: 1px solid black;*/
+    margin-left: 260px;
+    text-align: center;
+    font-family: sans-serif;
+    display: none;
+  }
+  .materials {
+    width: 900px;
+    height: 350px;
+    /*border: 1px solid black;*/
+    margin-left: 240px;
+    text-align: center;
+    display: none;
+  }
+  .materialsList {
+    list-style-type: none;
+    display: inline-block;
+    /*border: 1px solid black;*/
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 42px;
+    margin: 0 auto;
+  }
+  .materialsFont {
+    font-size: 16px;
+  }
+  .line {
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: black;
+    margin-left: 440px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 890px) {
+  .navbar {
+    border-bottom: 1px solid black;
+    display: block;
+    width: 300px;
+    text-align: left;
+    padding-left: 15px;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .fit {
+    text-align: center;
+    width: 300px;
+    display: none;
+  }
+  .care {
+    text-align: center;
+    width: 300px;
+    display: none;
+  }
+  .materials {
+    text-align: center;
+    width: 300px;
+    display: none;
+  }
+  .materialsList {
+    list-style-type: none;
+    display: inline-block;
+    /*border: 1px solid black;*/
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 15px;
+    font-family: sans-serif;
+  }
+  #shiftLeft {
+    margin-left: -40px;
+  }
+  .materialsFont {
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  .line {
+    display: block;
+    height: 1px;
+    width: 60px;
+    margin: 0 auto;
+    background-color: black;
+  }
+}
