@@ -12,6 +12,7 @@
     font-family: sans-serif;
     letter-spacing: 2px;
     font-weight: bolder;
+    margin-top: 40px;
   }
   .navbar:hover {
     background-color: black;
@@ -68,6 +69,16 @@
     margin-top: 5px;
     margin-bottom: 20px;
   }
+
+
+  .responsive {
+    display: none;
+  }
+
+
+
+
+
 }
 @media all and (max-width: 890px) {
   .navbar {
@@ -124,4 +135,48 @@
     margin: 0 auto;
     background-color: black;
   }
+  .dontShow {
+    display: none;
+  }
+
+
+
+
+  .details,
+  .show,
+  .hide:target {
+    display: none;
+  }
+  .hide:target + .show,
+  .hide:target ~ .details {
+    display: block;
+  }
+
+  .accordionIcon {
+    text-align: right;
+  }
+
+  a {
+    display: block;
+    height: 20px;
+    width: 300px;
+    border-top: 1px solid black;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  #hide1, #show1 {
+    border-top: none;
+  }
+
+
+
+
+
+
 }
